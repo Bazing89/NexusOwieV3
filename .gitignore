@@ -3,3 +3,14 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+# KiCad local state and backups
+**/.history/
+**/*.kicad_prl
+**/*.kicad_pro.lck
+**/~*.kicad_*
+
+# Local generation and validation artifacts
+tmp/
+tools/kikit_runtime/
+**/.kicad_export_tmp/
